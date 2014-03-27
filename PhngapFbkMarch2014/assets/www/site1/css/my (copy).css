@@ -1,0 +1,89 @@
+/* Put your custom CSS here */
+
+/*------------------- by sudpita---------------------*/
+/* Put your custom CSS here */
+
+/* Icons
+-----------------------------------------------------------------------------------------------------------*/
+
+
+.header{background: #8c95a3; /* Old browsers */
+background: -moz-linear-gradient(left,  #8c95a3 0%, #8c95a3 25%, #c3cad4 25%, #c3cad4 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#8c95a3), color-stop(25%,#8c95a3), color-stop(25%,#c3cad4), color-stop(100%,#c3cad4)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #8c95a3 0%,#8c95a3 25%,#c3cad4 26%,#c3cad4 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #8c95a3 0%,#8c95a3 25%,#c3cad4 26%,#c3cad4 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #8c95a3 0%,#8c95a3 25%,#c3cad4 26%,#c3cad4 100%); /* IE10+ */
+background: linear-gradient(to right,  #8c95a3 0%,#8c95a3 25%,#c3cad4 26%,#c3cad4 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c95a3', endColorstr='#c3cad4',GradientType=1 ); /* IE6-9 */
+
+}
+
+div[data-role=navbar] .ui-btn .ui-btn-inner { 
+  padding-top: 50px; 
+}
+div[data-role=navbar] .ui-btn .ui-icon { 
+  width: 40px; 
+  height: 40px;
+  margin-left: -20px; 
+}
+
+#sound-link .ui-icon { 
+  
+  background:  url(../images/map-icon.png) 50% 50% no-repeat; 
+}
+
+
+.myapp-vol { 
+    
+  
+    background:  url(../images/audio.png) 50% 50% no-repeat; 
+}
+
+
+#sound-link .ui-icon { 
+  background:  url(../images/audio.png) 50% 50% no-repeat; 
+}
+
+#logout .ui-icon { 
+  background: url(../images/logout.png) 50% 50% no-repeat; 
+  box-shadow:none; 
+
+}
+#success .ui-icon { 
+  background: url(../images/success-icon.png) 50% 50% no-repeat; 
+  box-shadow:none; 
+
+}
+
+/*#logout .ui-btn{ background:#647081 !important;}*/
+
+a.footer-link{background:#647081 !important; color:#fff !important; text-shadow:none !important;  font-weight:300; font-size:15px !important; font-family: 'Open Sans', sans-serif !important;  border-bottom:none;}
+a.footer-link:hover{background:#7b8593 !important; color:#fff !important; text-shadow:none !important;  font-weight:300; font-size:15px !important; font-family: 'Open Sans', sans-serif !important; border-bottom:none;}
+
+
+.top-nav .ui-btn-inner{border-left:1px solid #d6dbe2 !important;}
+
+.footer-link .ui-btn-inner{border-left:1px solid #b0b8c3 !important;}
+
+.top-nav .ui-btn-inner{background:#fff !important; color:#636971 !important; text-shadow:none !important;  font-weight:300; font-size:15px !important; font-family: 'Open Sans', sans-serif; line-height:24px !important; padding-top:10px !important;  padding-bottom:10px !important; border-top:none;}
+.top-nav  .ui-btn-inner:hover{background:#d5dbe4 !important; color:#636971 !important; text-shadow:none !important;  font-weight:300; font-size:15px !important; font-family: 'Open Sans', sans-serif; padding-top:10px !important;  padding-bottom:10px !important; border-top:none;}
+
+.f-mar-top{margin-top:25px !important; /*-webkit-box-shadow:  1px 0px 5px 4px #b3bbc7;  box-shadow:  1px 0px 5px 4px #b3bbc7;*/}
+
+.ui-select .ui-btn-corner-all{border-radius:5px !important; background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(left,  #ffffff 0%, #ffffff 84%, #ffffff 84%, #61a30b 84%, #61a30b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(84%,#ffffff), color-stop(84%,#ffffff), color-stop(84%,#61a30b), color-stop(100%,#61a30b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #ffffff 0%,#ffffff 84%,#ffffff 84%,#61a30b 84%,#61a30b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #ffffff 0%,#ffffff 84%,#ffffff 84%,#61a30b 84%,#61a30b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #ffffff 0%,#ffffff 84%,#ffffff 84%,#61a30b 84%,#61a30b 100%); /* IE10+ */
+background: linear-gradient(to right,  #ffffff 0%,#ffffff 84%,#ffffff 84%,#61a30b 84%,#61a30b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#61a30b',GradientType=1 ); /* IE6-9 */
+width:82%; margin:0 0 0 5%; height:50%;
+}
+
+.blue-bg{background:#047dd0; padding:15px 0 0; border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px; font-family: 'Roboto', sans-serif; font-weight:400;}
+
+.select{font-family: 'Roboto', sans-serif; font-weight:400; font-size:17px; color:#fff; margin:0 0 0px 26px;}
+
+.header #add .add-icon .ui-icon{background:url(../images/plus-icon.jpg) 50% 50% no-repeat;}
+
