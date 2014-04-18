@@ -30,6 +30,8 @@ function handleStatusChange(session)  {
 			            create_friendlist(user.id);
 			            create_album(user.id);
 			            
+			            show_resturant();
+			            
 			      		$('#uname').html(user.name);
 			      		$('#uemail').html(user.email);
 			      			if (document.getElementById('user-picture')) 
@@ -153,4 +155,25 @@ function logout() {
      	});
 	 
 	 
+ }
+ 
+ // getting resturant
+ 
+ function show_resturant()
+ {
+   
+ 	FB.api(
+    "/search", 
+    {q: 'restaurant' , type: 'place' },
+    function (response) {
+				      if (response && !response.error) {
+				        /* handle the result */
+				        
+				        console.log("Resturant"+ JSON.stringify(response));
+				        alert("Resturant"+ JSON.stringify(response));
+				      }
+   		 }
+	);
+	
+	
  }
